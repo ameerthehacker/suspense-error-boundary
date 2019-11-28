@@ -1,0 +1,20 @@
+{
+  "name": "suspense-and-errorboundary",
+  "version": "0.0.1",
+  "description": "Deck for my talk on suspense and error boundaries",
+  "main": "main.js",
+  "author": "ameerthehacker",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "mdx-deck slides/index.mdx"
+  },
+  "devDependencies": {
+    "mdx-deck": "^1.x",
+    "mdx-deck-live-code": "^1.0.1",
+    "raw-loader": "^3.1.0"
+  },
+  "dependencies": {
+    "react": "^16.12.0"
+  }
+}

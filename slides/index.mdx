@@ -1,0 +1,91 @@
+import { code } from 'mdx-deck/themes';
+import { LiveCode } from 'mdx-deck-live-code';
+import { Appear } from 'mdx-deck'
+
+export const theme = code;
+const alignLeft = { textAlign: "left" };
+
+# Howdy:wave:, I'm Ameer Jhan
+:heart_eyes: JavaScript, OSS and Microservices
+
+---
+### :microphone: Better UX with Suspense and :x: boundaries
+
+---
+## Better DX :keyboard: = Better UX :grinning:
+
+---
+## What is better UX :shrug:
+<ul>
+  <Appear>
+    <li style={alignLeft}>Break gracefully</li>
+    <li style={alignLeft}>Let the user know that something is happening</li>
+    <li style={alignLeft}>Sensible content loading</li>
+  </Appear>  
+</ul>
+
+---
+## What is better DX :shrug:
+<ul>
+  <Appear>
+    <li style={alignLeft}>Keeping things DRY</li>
+    <li style={alignLeft}>Being Declarative and not imperative</li>
+    <li style={alignLeft}>Patterns that enforce all the above</li>
+  </Appear>  
+</ul>
+
+---
+## Let us build something :hammer:
+<ul>
+  <Appear>
+    <li style={alignLeft}>A GitHub profile clone</li>
+    <li style={alignLeft}>Progressively enhance UX</li>
+  </Appear>  
+</ul>
+
+---
+## :x: Error Boundary
+<ul>
+  <Appear>
+    <li style={alignLeft}>They are kind of declarative try/catch</li>
+    <li style={alignLeft}>Error boundaries don't catch errors in event handling</li>
+  </Appear>  
+</ul>
+
+---
+## Error in Error Boundary :shrug:
+![error](./error.png)
+
+---
+## Suspense for Lazy Loading
+<Appear>
+  <li style={alignLeft}>Provides fallback while lazy loading</li>
+  <li style={alignLeft}><strong>React.Lazy</strong> and <strong>React.Suspense</strong> does not support <strong>SSR</strong> out of the box</li>
+</Appear>
+
+---
+## Fetch as we render
+![](./fetch-as-render.png)
+
+---
+## Fetch and render
+![](./fetch-and-render.png)
+
+---
+## Render as we fetch
+![](./render-as-we-fetch.png)
+
+---
+## Disclaimer :skull_and_crossbones:
+* Suspense for data fetching is experimental
+* Big no no for use in production
+
+---
+## Summary
+- User error boundary to save yourself from unexpected errors
+- Lazy load components with suspense to save some bytes for your users
+- Use suspense data fetching to improve the loading UX (experimental)
+
+---
+# Thank You :pray:
+
